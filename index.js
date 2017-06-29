@@ -67,8 +67,8 @@ app.intent('sayWeekPlan',
     },
     function(request,response) {
         response.say("Here is your plan for this week: " +
-            "you have an appointment with Doctor Lodge next tuesday at 9am." +
-            "You have a follow-up appointment with your physiologist Mrs Evans on wednesday at 2pm" +
+            "you have an appointment with Doctor Lodge next tuesday at 9am," +
+            "You have a follow-up appointment with your physiologist Mrs Evans on wednesday at 2pm," +
             "And don't forget your wellness appointments thursday and sunday.");
     }
 );
