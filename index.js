@@ -66,7 +66,7 @@ app.intent('sayWeekPlan',
         ]
     },
     function(request,response) {
-        response.say("Here is your plan for this week");
+        response.say("Here is your plan for this week: you have an appointment with Doctor Jones on Tuesday at 9am");
     }
 );
 
