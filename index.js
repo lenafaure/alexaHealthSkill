@@ -62,6 +62,7 @@ app.intent('sayWeekPlan',
         "utterances":[
             "What do I have to do this week",
             "What is my plan for the week",
+            "What are my next tasks",
             "Week plan"
         ]
     },
