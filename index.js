@@ -42,7 +42,7 @@ app.intent('sayMedicationTime',
         "Medication"]
     },
     function(request,response) {
-        response.say("Your medication is due at 7pm");
+        response.say("Here is your medication for today: your Folic Acid and Methotrexate are due this morrning, your Anti-TNF Biotherapy is due this evening");
     }
 );
 
@@ -53,7 +53,7 @@ app.intent('sayMedicationDose',
             "Dose"]
     },
     function(request,response) {
-        response.say("You have to take 2 doses of your medication");
+        response.say("You have to take 1 dose of Methotrexate, 2 doses of Cortisone and 1 dose of Biotherapy");
     }
 );
 
